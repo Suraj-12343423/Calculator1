@@ -1,75 +1,107 @@
-﻿# Calculator1
+# 🧮 Calculator Web App
 
-
-🧮 Calculator Web App
-
-A simple and responsive calculator built using **HTML, CSS, and JavaScript**.  
-It performs basic arithmetic operations like addition, subtraction, multiplication, and division.
+A simple and responsive calculator built using **HTML, CSS, and JavaScript** that performs basic arithmetic operations with a clean and user-friendly interface.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- Basic operations: +, -, *, /
-- Clear display button (C)
-- Decimal support (.)
-- Error handling for invalid expressions
-- Clean and centered UI
+👉 https://calculator1-blush.vercel.app/
 
 ---
 
-## 🛠️ Technologies Used
+## 📌 Features
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+* ➕ Addition
+* ➖ Subtraction
+* ✖️ Multiplication
+* ➗ Division
+* 🧹 Clear / Reset functionality
+* 📱 Responsive design (works on mobile & desktop)
+* ⚡ Fast and lightweight
 
 ---
 
-## 📁 Project Structure
+## 🛠️ Tech Stack
 
+* **HTML5** – Structure
+* **CSS3** – Styling & layout
+* **JavaScript (Vanilla JS)** – Logic & interactivity
+
+---
+
+## 📂 Project Structure
+
+```
 calculator/
-│
-├── index.html   # Structure of the app
-├── style.css    # Styling
-└── script.js    # Logic and functionality
-
----
-
-## ▶️ How to Run
-
-1. Download or clone the repository  
-2. Open `index.html` in your browser  
-3. Start using the calculator 🎉
+│── index.html
+│── style.css
+│── script.js
+```
 
 ---
 
 ## ⚙️ How It Works
 
-- Buttons call JavaScript functions using onclick
-- User input is displayed in the input field
-- Expression is evaluated using eval()
-- Errors are handled using try...catch
+* User clicks buttons to input numbers and operators
+* Inputs are displayed dynamically on the screen
+* JavaScript processes the expression
+* Result is calculated and shown instantly
 
 ---
 
-## ⚠️ Note
+## 📸 Screenshots
 
-- This project uses eval() for simplicity.
-- In real-world applications, eval() is not recommended due to security risks.
+<img width="1130" height="820" alt="image" src="https://github.com/user-attachments/assets/259839a8-230c-4644-b7fe-6c340436da5d" />
 
----
 
-## ✨ Future Improvements
-
-- Add keyboard support
-- Add backspace button
-- Improve UI/UX design
-- Replace eval() with a safer logic parser
 
 ---
 
-## 🙌 Author
+## 🧠 Learning Outcomes
 
-**Sai Suraj**
-"""
+* Improved understanding of **DOM manipulation**
+* Learned how to handle **user input and events**
+* Practiced **JavaScript logic building**
+* Built a **fully functional frontend project from scratch**
+
+---
+
+## 🚧 Future Improvements
+
+* Add keyboard support
+* Add scientific functions (sin, cos, log, etc.)
+* Add calculation history
+* Add dark/light mode toggle
+* Improve UI animations
+
+---
+
+## 💼 Resume Description
+
+Built a responsive calculator web application using HTML, CSS, and JavaScript supporting core arithmetic operations. Implemented dynamic input handling, clean UI design, and deployed the project using Vercel.
+
+---
+
+## 📦 Deployment
+
+Deployed on **Vercel** for fast and reliable hosting.
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and improve the project!
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgement
+
+This project was built as part of practicing frontend development and improving JavaScript skills.
+
